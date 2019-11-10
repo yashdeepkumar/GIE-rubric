@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming-Application Platform</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      * {
+        border: 10px;
+        padding: 10px;
+        margin: 10px;
+      }
+      body, div, form, input, p {
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1 {
+      font-weight: 400;
+      }
+      .main-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      form {
+      width: 100%;
+      box-shadow: 0 2px 5px #ccc;
+      background: #fff;
+      }
+      th, td {
+      width: 8%;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      }
+      .first-col {
+      width: 15%;
+      text-align: left;
+      }
+      textarea:hover {
+
+      outline: none;
+      }
+      .comments-block, .radio-block {
+
+      }
+      .comments, question, .answer, .question-answer, table {
+      width: 100%;
+      }
+      .comments {
+
+      }
+      small {
+      display: block;
+      line-height: 18px;
+      opacity: 0.5;
+      }
+      textarea {
+      width: calc(100% - 6px);
+      }
+      .question-answer >div {
+      display: inline-block;
+
+      }
+      .btn-block {
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #095484;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #0666a3;
+      }
+      @media (min-width: 568px) {
+      .comments-block, .radio-block {
+      display: flex;
+      justify-content: space-between;
+      }
+      .comments  {
+      width: 30%;
+      }
+      .answer {
+      width: 70%;
+      }
+      .question, .question-answer {
+      width: 50%;
+      }
+      th, td {
+      word-break: keep-all;
+      }
+      }
+    </style>
+  </head>
+<body>
+    <div class="main-block">
+      <form action="/">
+        <img src='forge%20logo.jpg' style='position:absolute; top:0; left:0;' width='100px' height='100px' alt='' />
+        <h1 align="center">GRADUATE INNOVATION ENGINEER RUBRIC</h1>
+          <br>
+          <br>
+          <div>
+              <form action="" method="get">
+          <h4>Programming - Application Platform</h4>
+          <table>
+            <tr>
+              <th class="first-col"></th>
+              <th><b>LEARNER</b></th>
+              <th><b>THINKER</b></th>
+              <th><b>HACKER</b></th>
+              <th><b>ENGINEER</b></th>
+              <th><b>EXPERT</b></th>
+            </tr>
+            <tr>
+              <td class="first-col">Defining Problem, Problem
+Decomposition and Planning
+code (Architecture, pseudocode)</td>
+              <td><input type="radio" value="none" name="DP" /></td>
+              <td><input type="radio" value="none" name="DP" /></td>
+              <td><input type="radio" value="none" name="DP" /></td>
+              <td><input type="radio" value="none" name="DP" /></td>
+              <td><input type="radio" value="none" name="DP" /></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th class="first-col"></th>
+              <th><b>LEARNER</b></th>
+              <th><b>THINKER</b></th>
+              <th><b>HACKER</b></th>
+              <th><b>ENGINEER</b></th>
+              <th><b>EXPERT</b></th>
+            </tr>
+            <tr>
+              <td class="first-col">Computer Science Fundamentals
+(Syntax, Variables and Structures)</td>
+              <td><input type="radio" value="none" name="CSF" /></td>
+              <td><input type="radio" value="none" name="CSF" /></td>
+              <td><input type="radio" value="none" name="CSF" /></td>
+              <td><input type="radio" value="none" name="CSF" /></td>
+              <td><input type="radio" value="none" name="CSF" /></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th class="first-col"></th>
+              <th><b>LEARNER</b></th>
+              <th><b>THINKER</b></th>
+              <th><b>HACKER</b></th>
+              <th><b>ENGINEER</b></th>
+              <th><b>EXPERT</b></th>
+            </tr>
+            <tr>
+              <td class="first-col">Programming Techniques
+(Object Oriented Programming,
+Programming Bottlenecks
+Multi-threading, Queing, Synchronisation)</td>
+              <td><input type="radio" value="none" name="PT" /></td>
+              <td><input type="radio" value="none" name="PT" /></td>
+              <td><input type="radio" value="none" name="PT" /></td>
+              <td><input type="radio" value="none" name="PT" /></td>
+              <td><input type="radio" value="none" name="PT" /></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th class="first-col"></th>
+               <th><b>LEARNER</b></th>
+              <th><b>THINKER</b></th>
+              <th><b>HACKER</b></th>
+              <th><b>ENGINEER</b></th>
+              <th><b>EXPERT</b></th>
+            </tr>
+            <tr>
+              <td class="first-col">Programming languages known
+(C, CPP, Java,etc,)</td>
+              <td><input type="radio" value="none" name="PL" /></td>
+              <td><input type="radio" value="none" name="PL" /></td>
+              <td><input type="radio" value="none" name="PL" /></td>
+              <td><input type="radio" value="none" name="PL" /></td>
+              <td><input type="radio" value="none" name="PL" /></td>
+            </tr>
+          </table>
+    <br>
+          <hr style="width=20px;background-color: black">
+        </div>
+            <br>
+            <br>
+        <table>
+            <tr>
+              <th class="first-col"></th>
+              <th><b>1</b></th>
+              <th><b>2</b></th>
+              <th><b>3</b></th>
+              <th><b>4</b></th>
+              <th><b>5</b></th>
+              <th><b>6</b></th>
+              <th><b>7</b></th>
+              <th><b>8</b></th>
+              <th><b>9</b></th>
+              <th><b>10</b></th>
+            </tr>
+            <tr>
+              <td class="first-col">Quantify your skills in the level chosen above in the scale of 1-10</td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+              <td><input type="radio" value="none" name="rate5" /></td>
+            </tr>
+          </table>
+            <br>
+            <br>
+            <br>
+            <br>
+        <div class="btn-block">
+          <a href="gie7.html"><button>Next</button></a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
